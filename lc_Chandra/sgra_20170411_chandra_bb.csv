@@ -1,0 +1,12 @@
+#
+# DESCRIPTION: Bayesian block identification for Chandra observation of Sgr A* during the EHT campaign on 2017 April 11. For
+#  details, please see the documentation in this online data repository and the associated publication: The Event Horizon 
+#  Telescope Collaboration et al. (2022;       )
+#
+# COLUMNS: start of bin (MJD), end of bin (MJD), counts, width (s), count rate (counts/s), count rate uncertainty
+#
+57854.17548, 57854.33095,   88, 13432.4, 0.0065513, 0.00146365
+57854.33095, 57854.35452,   33, 3088.8, 0.01620127, 0.00415385
+57854.35452, 57854.37324,  191, 1617.4, 0.11808912, 0.01237708
+57854.37324, 57854.38099,   39, 669.3, 0.05826736, 0.03037581
+57854.38099, 57854.56983,  117, 16315.5, 0.00717108, 0.00081395
