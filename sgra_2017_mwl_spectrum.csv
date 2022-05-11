@@ -5,7 +5,7 @@
 #
 # COLUMNS: observatory, frequency (GHz), flux density (Jy), flux density upper error (Jy), flux density lower error (Jy), flux (erg/cm2/s), flux upper error (erg/cm2/s), flux lower error (erg/cm2/s), luminosity (nuLnu; erg/s), luminosity upper error (erg/s), luminosity lower error (erg/s)
 #
-# NOTE: empty entries in the upper error columns indicate an upper limit.
+# NOTE: Empty entries in the upper error columns indicate upper limits.
 #
 EAVN,22,1.07,0.11,0.11,2.35E-13,2.42E-14,2.42E-14,1.93E+33,1.98E+32,1.98E+32
 EAVN,43,1.35,0.14,0.14,5.81E-13,6.02E-14,6.02E-14,4.76E+33,4.93E+32,4.93E+32
