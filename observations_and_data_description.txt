@@ -1,0 +1,31 @@
+** Chandra Lightcurves **
+ 
+The Chandra X-ray Observatory observed Sgr A* on four dates during the 2017 EHT campaign. We collected observations on 2017 April 6, 7, 11, and 12. We processed the data using standard procedures described in Sec. 4.2.2 of the Sgr A* Paper II (ApJL, 930, L13; Paper hereafter). The files within the folder "lc_Chandra" with names formatted as "sgra_201704XX_chandra.csv" where XX is replaced with 06, 07, 11, or 12, contain detected count rates from Sgr A* within 2-8 keV. The associated files with "_bb" appended contain the detected Bayesian Blocks identifying changes in the count rate with 99.8% significance.
+
+
+** NuSTAR Lightcurves **
+
+The Nuclear Spectroscopic Telescope Array (NuSTAR) observed Sgr A* in three observations that covered four dates during the 2017 EHT campaign. We collected observations on 2017 April 6 which extended into April 7, on April 11, and on April 12. We processed the data using standard procedures described in Sec. 4.2.3 of the Paper. The files within the folder "lc_NuSTAR" with names formatted as "sgra_201704XX_nustar.csv" where XX is replaced with 06, 11, or 12, contain detected count rates from Sgr A* within 3-79 keV. 
+
+
+** Swift-XRT Lightcurves **
+ 
+The Neil Gehrels Swift Observatory observed Sgr A* on numerous occasions at the time of the 2017 EHT campaign. We collected observations with the X-ray Telescope (XRT) between 2017 April 5 and April 12. We processed the data using standard procedures described in Sec. 4.2.1 of the Paper. The file "sgra_2017_swiftxrt.csv" within the folder "lc_Swift" contains the detected count rates from Sgr A* in the 2-10 keV band. 
+
+
+** X-ray Spectral Files **
+
+The file "sgra_2017_Xray_spectral_files.zip" contains all spectral and response files necessary for joint modeling of the X-ray spectrum of Sgr A* as described in the Sec. 4.2.4 of the Paper. All files can be loaded into the spectral analysis software ISIS (https://space.mit.edu/ASC/ISIS/) using the script "SgrA_X-ray_Load.sl" provided within the same folder. A brief description of the setup is given in the comments within the script. The script automatically reads the file "SgrA_X-ray_Parameters.par" (also provided within the folder), which defines the best-fit spectral model for the data in question.
+
+
+** X-ray Model MCMC Posterior **
+
+The file "sgra_2017_Xray_model_MCMC_posterior.fits" has the results of an MCMC analysis of Chandra and NuSTAR spectra of Sgr A* using the isisscripts routine emcee. It is associated with the "sgra" model defined in the ISIS script to load the X-ray data within the X-ray spectral files package. The model itself and its parameters are explained in more detail there.
+
+This fits file is best read using the isisscripts tool read_chain; versions after 2018-05-11 should be based on the correct file format. The file has four extensions, as follows:
+     [0] PRIMARY
+     [1] PARAMETERS: The list of free parameters from the parameter file above.
+     [2] MCMCCHAIN: The actual output of the emcee run, which featured 10 free parameters, 10 walkers per free parameter, and 10000 steps. This table has 12 columns and 1,000,000 rows. Each row represents a single walker at a single step. The chain for a single walker and parameter can be retrieved by taking every Nwalkers*Nparameters element (i.e., every 1000th element) of the given column. The additional two columns indicate the fit statistic for each row and whether the walker updated at that step.
+     [3] CHAINSTATS: Contains useful summary information about updates to the chains, including the fraction of walkers that update at each step as well as the min, max, and median fit statistic at each step.
+
+
