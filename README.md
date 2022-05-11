@@ -19,6 +19,8 @@ In 2017, the Event Horizon Telescope (EHT) Collaboration succeeded in capturing 
 - lc_Chandra: sgra_20170406_chandra_bb.csv, sgra_20170406_chandra.csv, sgra_20170407_chandra_bb.csv, sgra_20170407_chandra.csv, sgra_20170411_chandra_bb.csv, sgra_20170411_chandra.csv, sgra_20170412_chandra_bb.csv, sgra_20170412_chandra.csv
 - lc_NuSTAR: sgra_20170406_nustar.csv, sgra_20170411_nustar.csv, sgra_20170412_nustar.csv
 - lc_Swift: sgra_2017_swiftxrt.csv
+
+Due to their size, the following files are available only in [the mirror data repository on CyVerse](https://doi.org/10.25739/26fq-k306).
 - sgra_2017_Xray_spectral_files.zip
 - sgra_2017_Xray_model_MCMC_posterior.fits
 

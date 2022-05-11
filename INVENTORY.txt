@@ -1,6 +1,3 @@
-INVENTORY.txt
-LICENSE.txt
-README.md
 lc_Chandra/
   sgra_20170406_chandra_bb.csv
   sgra_20170406_chandra.csv
@@ -16,7 +13,8 @@ lc_NuSTAR/
   sgra_20170412_nustar.csv
 lc_Swift/
   sgra_2017_swiftxrt.csv
+INVENTORY.txt
+LICENSE.txt
+README.md
 observations_and_data_description.txt
 sgra_2017_mwl_spectrum.csv
-sgra_2017_Xray_spectral_files.zip
-sgra_2017_Xray_model_MCMC_posterior.fits
