@@ -1,4 +1,22 @@
-README.md
 INVENTORY.txt
 LICENSE.txt
-run.sh*
+README.md
+lc_Chandra/
+  sgra_20170406_chandra_bb.csv
+  sgra_20170406_chandra.csv
+  sgra_20170407_chandra_bb.csv
+  sgra_20170407_chandra.csv
+  sgra_20170411_chandra_bb.csv
+  sgra_20170411_chandra.csv
+  sgra_20170412_chandra_bb.csv
+  sgra_20170412_chandra.csv
+lc_NuSTAR/
+  sgra_20170406_nustar.csv
+  sgra_20170411_nustar.csv
+  sgra_20170412_nustar.csv
+lc_Swift/
+  sgra_2017_swiftxrt.csv
+observations_and_data_description.txt
+sgra_2017_mwl_spectrum.csv
+sgra_2017_Xray_spectral_files.zip
+sgra_2017_Xray_model_MCMC_posterior.fits
