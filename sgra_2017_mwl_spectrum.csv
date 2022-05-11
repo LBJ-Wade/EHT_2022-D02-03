@@ -1,7 +1,7 @@
 #
 # DESCRIPTION: Observed spectral energy distribution for Sgr A* around the EHT campaign in April 2017. For
 #  details of the data processing and analysis methods, please see the documentation in this online data
-#  repository and the associated publication: The Event Horizon Telescope Collaboration et al. (2022b; ApJL, 930, L13).
+#  repository and the associated publication: The EHT Collaboration et al. (2022b; ApJL, 930, L13).
 #
 # COLUMNS: observatory, frequency (GHz), flux density (Jy), flux density upper errors (Jy), flux density lower errors (Jy), flux (erg/cm2/s), flux upper error (erg/cm2/s), flux lower error (erg/cm2/s), luminosity vLv (erg/s), luminosity upper error (erg/s), luminosity lower error (erg/s)
 #

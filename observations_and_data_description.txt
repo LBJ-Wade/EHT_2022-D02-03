@@ -1,6 +1,6 @@
 ** Chandra Lightcurves **
  
-The Chandra X-ray Observatory observed Sgr A* on four dates during the 2017 EHT campaign. We collected observations on 2017 April 6, 7, 11, and 12. We processed the data using standard procedures described in Sec. 4.2.2 of the Sgr A* Paper II (ApJL, 930, L13; Paper hereafter). The files within the folder "lc_Chandra" with names formatted as "sgra_201704XX_chandra.csv" where XX is replaced with 06, 07, 11, or 12, contain detected count rates from Sgr A* within 2-8 keV. The associated files with "_bb" appended contain the detected Bayesian Blocks identifying changes in the count rate with 99.8% significance.
+The Chandra X-ray Observatory observed Sgr A* on four dates during the 2017 EHT campaign. We collected observations on 2017 April 6, 7, 11, and 12. We processed the data using standard procedures described in Sec. 4.2.2 of The EHT Collaboration et al. 2022b (ApJL, 930, L13; Paper hereafter). The files within the folder "lc_Chandra" with names formatted as "sgra_201704XX_chandra.csv" where XX is replaced with 06, 07, 11, or 12, contain detected count rates from Sgr A* within 2-8 keV. The associated files with "_bb" appended contain the detected Bayesian Blocks identifying changes in the count rate with 99.8% significance.
 
 
 ** NuSTAR Lightcurves **
